@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Second</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: wheat;
+        }
+
+        .heading {
+            background-color: darkgoldenrod;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .head {
+            border-bottom: 2px solid black;
+            display: inline;
+            font-size: 3rem;
+        }
+
+        .paragraph {
+            background-color: yellowgreen;
+            font-size: 1.5rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .para {
+            display: block;
+            margin: auto;
+            width: 30%;
+            text-align: center;
+            font-size: 3rem;
+            border-bottom: 2px solid black;
+        }
+
+        .prem {
+            background-color: hotpink;
+            font-size: 1.5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .premiry {
+            display: block;
+            margin: auto;
+            width: 18%;
+            text-align: center;
+            font-size: 3rem;
+            border-bottom: 2px solid black;
+        }
+
+        .container {
+            background-color: teal;
+            text-align: center;
+        }
+        .container > h3{
+            display: block;
+            width: 25%;
+            margin: auto;
+          font-size: 3rem;
+          border-bottom: 2px solid black;
+        }
+
+        .form-group {
+            background-color: dimgray;
+        }
+
+        input {
+            margin: 10px 20px;
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        label {
+            font-size: 1.5rem;
+        }
+
+        #submit {
+            display: block;
+            margin: 10px 666px;
+            width: 8%;
+        }
+        #reset {
+            display: block;
+            margin: 10px 685px;
+            width: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2 class="head">Heading Tag</h2>
+        <h1>This is h1 tag</h1>
+        <h2>This is h2 tag</h2>
+        <h3>This is h3 tag</h3>
+        <h4>This is h4 tag</h4>
+        <h5>This is h5 tag</h5>
+        <h6>This is h6 tag</h6>
+    </div>
+
+    <div class="paragraph">
+        <h2 class="para">Paragraph Tag</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem neque sit aperiam sapiente consectetur,
+            cupiditate ut harum ipsa sunt, velit commodi perferendis deserunt. Odit cupiditate ullam alias doloremque
+            itaque omnis rerum! Quaerat illum inventore porro quo officiis, temporibus reiciendis fuga blanditiis quod?
+            Minima, tenetur necessitatibus aperiam ullam ducimus omnis cumque quidem, sunt rem mollitia officia
+            corrupti? Quis voluptas fugit earum qui? Omnis ad, quam deleniti corrupti, iste eum voluptatibus nulla sequi
+            odio similique nostrum illo, rem nam molestias unde magnam tempore sunt nesciunt dolor molestiae ea aliquam!
+            Aliquid qui exercitationem enim doloribus, voluptas aperiam? Incidunt ullam sequi eaque iure dolorum.Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Voluptas, exercitationem. Iusto dolor earum nihil ipsa
+            temporibus maiores aperiam magnam necessitatibus quaerat laborum debitis error, beatae cupiditate! Amet,
+            tempore aspernatur harum minima nesciunt suscipit neque necessitatibus, sit mollitia magnam repudiandae
+            provident odio maiores recusandae quidem? Earum sit enim at repudiandae. Porro?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Optio quo, itaque natus iste accusamus eos fugiat tempora eligendi aliquam
+            voluptates.</p>
+    </div>
+
+    <div class="prem">
+        <h2 class="premiry">Pre Tag</h2>
+        <pre>Hello, Preetish Sir,
+                My self Mohd Talib
+                I lives in Lucknow
+                        I am a student of Mca IInd
+        </pre>
+    </div>
+
+    <div class="container">
+        <h3>Log In Form</h3>
+        <form action="" class="form-group">
+            <div>
+                <label for="fname">First name: </label>
+                <input type="text" placeholder="Enter Your First Name" id="fname" name="fname" maxlength="20" required>
+            </div>
+
+            <div>
+                <label for="lname">Last name: </label>
+                <input type="text" placeholder="Enter Your Last Name" id="lname" name="lname" maxlength="20">
+            </div>
+
+            <div>
+                <label for="email">Email &nbsp; &nbsp; &nbsp; : </label>
+                <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="psw">Password &nbsp;:</label>
+                <input type="password" placeholder="Enter Your Password" id="psw" name="psw" required>
+            </div>
+            <div>
+                <label for="dt">Date &nbsp;: </label>
+                <input type="date" placeholder="Date" id="dt" name="dt">
+            </div>
+
+            <input type="submit" name="submit" id="submit" value="Submit Now">
+            <input type="reset" name="reset" id="reset" value="Reset">
+
+        </form>
+    </div>
+</body>
+
+</html>
